@@ -1,0 +1,58 @@
+/* colors and fonts*/
+body {
+	background-color: rgb(240,240,240);
+	color: rgb(50,50,50);
+	font-family: Roboto;
+	font-size: 17px;
+} 
+h1,h2,h3 {
+	font-family: Lora, sans-serif;
+}
+h1 {
+	color: #575F7D;
+	font-size: 32px;
+}
+h2 {
+	color: rgb(3, 36, 252);
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+
+.paragraphe {
+	background: white;
+	padding: 30px;
+	margin: 20px;
+	box-shadow: 50px;
+	border-radius: 4px;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+#intro p {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;	
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+	width: 600px;	
+	}
+}
